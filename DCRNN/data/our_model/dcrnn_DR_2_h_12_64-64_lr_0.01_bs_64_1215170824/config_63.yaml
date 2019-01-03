@@ -1,0 +1,42 @@
+base_dir: data/our_model
+data:
+  batch_size: 64
+  dataset_dir: data/OUR
+  graph_pkl_filename: data/sensor_graph/our_adj_mx.pkl
+  test_batch_size: 64
+  val_batch_size: 64
+log_level: INFO
+model:
+  cl_decay_steps: 2000
+  filter_type: dual_random_walk
+  horizon: 12
+  input_dim: 2
+  l1_decay: 0
+  max_diffusion_step: 2
+  num_nodes: 34
+  num_rnn_layers: 2
+  output_dim: 1
+  rnn_units: 64
+  seq_len: 12
+  use_curriculum_learning: true
+train:
+  base_lr: 0.01
+  dropout: 0
+  epoch: 63
+  epochs: 100
+  epsilon: 0.001
+  global_step: 12608
+  log_dir: data/our_model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_1215170824/
+  lr_decay_ratio: 0.1
+  max_grad_norm: 5
+  max_to_keep: 100
+  min_learning_rate: 2.0e-06
+  model_filename: data/our_model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_1215170824/models-2.9365-12608
+  optimizer: adam
+  patience: 50
+  steps:
+  - 20
+  - 30
+  - 40
+  - 50
+  test_every_n_epochs: 5
