@@ -1,6 +1,6 @@
 # Traffic Forecasting Project
 
-This is the code for the Traffic-Forecasting project done in the Deep-Learning course (dtu02456) at the DTU in the Wintersemester 2018 ([Report](https://github.com/iqopi/dtu-2456-Traffic_Forecasting_Copenhagen/blob/master/Deep_Learning_Report.pdf))
+This is the code for the Traffic-Forecasting project done in the Deep-Learning course (dtu02456) at the DTU in the Wintersemester 2018 ([Poster](https://github.com/iqopi/dtu-2456-Traffic_Forecasting_Copenhagen/blob/master/poster_forecasting.pdf), [Report](https://github.com/iqopi/dtu-2456-Traffic_Forecasting_Copenhagen/blob/master/Deep_Learning_Report.pdf))
 This repository does not include any data, as the data for this project was provided by google, and is therefore not public domain.
 
 
